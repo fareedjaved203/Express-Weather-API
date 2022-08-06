@@ -46,7 +46,7 @@ const getInfo = async (event) => {
           break;
       }
       datahide.classList.remove("data_hide");
-    } catch (err) {
+    } catch (error) {
       city_name.innerHTML = "City Not Found";
       datahide.classList.add("data_hide");
     }
